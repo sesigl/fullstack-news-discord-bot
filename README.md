@@ -75,3 +75,6 @@ pulumi up
 <h2>License</h2>
 
 This project is licensed under the MIT License.
+
+<h2>Contributing</h2>
+This project is on hold.
