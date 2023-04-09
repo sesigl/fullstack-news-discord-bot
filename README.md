@@ -55,20 +55,23 @@ To install the dependencies, run the following command:
 ``` shell
 npm install
 ```
+
 <h3>Configuration</h3>
+
 To configure the AWS account credentials, run the following command:
 
 ``` shell
-pulumi config set aws:accessKeyId
-<ACCESS_KEY_ID>
-  pulumi config set aws:secretAccessKey
-  <SECRET_ACCESS_KEY> --secret
-    ```
-    <h3>Deployment</h3>
-    To deploy the infrastructure, execute the following command:
+pulumi config set aws:accessKeyId <ACCESS_KEY_ID>
+pulumi config set aws:secretAccessKey <SECRET_ACCESS_KEY> --secret
+```
+    
+<h3>Deployment</h3>
 
-    ``` shell
-    pulumi up
-    ```
-    <h2>License</h2>
-    This project is licensed under the MIT License.
+To deploy the infrastructure, execute the following command:
+
+``` shell
+pulumi up
+```
+<h2>License</h2>
+
+This project is licensed under the MIT License.
