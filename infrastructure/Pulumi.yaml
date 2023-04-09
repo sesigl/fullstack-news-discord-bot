@@ -1,0 +1,3 @@
+name: fsn-discord-bot-pulumi
+description: discord bot aws setup for fullstack news
+runtime: nodejs
